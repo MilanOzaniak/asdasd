@@ -1,0 +1,12 @@
+.list-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    .list-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+  }
